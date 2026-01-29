@@ -1,4 +1,5 @@
 import array.LongestCommonPrefix;
+import array.RemoveElement;
 import array.TwoSum;
 
 import java.util.Arrays;
@@ -13,6 +14,9 @@ public class Main{
 
         String longestCommonPrefixUsingStartsWith= LongestCommonPrefix.longestPrefixUsingStartsWith(new String[]{"flower","flight","flow"});
         System.out.println("Longest common prefix : "+longestCommonPrefixUsingStartsWith);
+
+        int unRemovedElement= RemoveElement.removeElement(new int[]{3,2,2,3},3);
+        System.out.println("Unremoved element : "+unRemovedElement);
 
 
     }
